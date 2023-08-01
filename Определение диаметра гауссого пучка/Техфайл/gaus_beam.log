@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.21)  31 JUL 2023 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.21)  1 AUG 2023 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,7 +815,13 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count323
 \l__pdf_internal_box=\box109
 )
-No file gaus_beam.aux.
+(./gaus_beam.aux
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 2
+2.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
 \openout1 = `gaus_beam.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -833,11 +839,6 @@ LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 3
-4.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -909,6 +910,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
+ (./gaus_beam.out) (./gaus_beam.out)
 \@outlinefile=\write3
 \openout3 = `gaus_beam.out'.
 
@@ -947,28 +949,25 @@ LaTeX Info: Redefining \nameref on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<MIPT.jpeg, id=24, 500.87125pt x 154.5775pt>
+File: MIPT.jpeg Graphic file (type jpg)
+<use MIPT.jpeg>
+Package pdftex.def Info: MIPT.jpeg  used on input line 42.
+(pdftex.def)             Requested size: 338.58632pt x 104.49803pt.
+[1
 
-LaTeX Warning: File `MIPT.jpeg' not found on input line 42.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./MIPT.
+jpeg>] (./gaus_beam.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-! Package pdftex.def Error: File `MIPT.jpeg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...degraphics[width=0.7\linewidth]{MIPT.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-42.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `gaus_beam.toc'.
 
@@ -978,38 +977,48 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.55 	\newpage
-               [1] (./gaus_beam.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `gaus_beam.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gaus_beam.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+               [1]
+<beam.png, id=48, 351.3125pt x 170.6375pt>
+File: beam.png Graphic file (type png)
+<use beam.png>
+Package pdftex.def Info: beam.png  used on input line 89.
+(pdftex.def)             Requested size: 351.31163pt x 170.63707pt.
+ [2 <./beam.png>]
+<I.png, id=68, 220.825pt x 204.765pt>
+File: I.png Graphic file (type png)
+<use I.png>
+Package pdftex.def Info: I.png  used on input line 101.
+(pdftex.def)             Requested size: 198.74065pt x 184.28677pt.
+ [3 <./I.png>] (./gaus_beam.aux)
+Package rerunfilecheck Info: File `gaus_beam.out' has not changed.
+(rerunfilecheck)             Checksum: 6A844DAD6B2F8FE6DA8B60A2F22D5B2E;903.
  ) 
 Here is how much of TeX's memory you used:
- 15843 strings out of 478268
- 253671 string characters out of 5846347
- 553801 words of memory out of 5000000
- 33816 multiletter control sequences out of 15000+600000
- 474240 words of font info for 36 fonts, out of 8000000 for 9000
+ 15887 strings out of 478268
+ 253834 string characters out of 5846347
+ 561438 words of memory out of 5000000
+ 33834 multiletter control sequences out of 15000+600000
+ 477869 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,63p,268b,503s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,8n,63p,659b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on gaus_beam.pdf (3 pages, 63599 bytes).
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx3583.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on gaus_beam.pdf (4 pages, 197297 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
